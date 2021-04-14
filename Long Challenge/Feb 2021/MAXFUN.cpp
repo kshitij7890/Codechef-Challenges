@@ -11,9 +11,8 @@ int main()
         cin >> n;
         vector<long long> arr(n);
         for (int i = 0; i < n; i++)
-        {
             cin >> arr[i];
-        }
+        
         sort(arr.begin(), arr.end());
         cout << 2 * abs(arr.back() - arr.front()) << endl;
     }
