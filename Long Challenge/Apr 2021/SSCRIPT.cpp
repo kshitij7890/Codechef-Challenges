@@ -24,7 +24,7 @@ int main()
 {
     long long int t;
     cin >> t;
-    while (t--)
+    while(t--)
     {
         long long int nn, kk;
         cin >> nn >> kk;
